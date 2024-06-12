@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(4, 4, 19);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: sans-serif;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: #1B1937;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 90%;
+    max-width: 1110px;
+    height: auto;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.container__texte {
+    margin-top: 20px;
+    margin-left: 50px;
+    flex: 1;
+}
+
+@media (max-width: 480px) {
+    .container__texte--title {
+        font-size: 20px;
+    }   
+}
+
+.container__texte--title {
+    font-size: 36px;
+    color: white;
+}
+
+.container__texte--title--color {
+    color: #AB5CDB;
+}
+
+.container__texte--description{
+    font-size: 15px;
+    opacity: 75%;
+    color: white;
+}
+
+.container__texte--align {
+    margin-top: 40px;
+}
+
+.container__texte--alignp {
+    color: rgb(204, 204, 203);
+    margin: 30px 35px 0 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    font-size: 24px;
+}
+
+.container__texte--size{
+    font-size: 12px;
+    opacity: 75%;
+}
+
+.image {
+    flex: 1;
+    max-width: 540px;
+    max-height: 446px;
+    display: block;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #AB5CDB;
+}
+.img {
+   
+    margin-left: auto;
+    mix-blend-mode: multiply;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+        border-radius: 5px 5px 0 0;
+        order: -1; 
+    }
+
+    .container__texte {
+        text-align: center;
+        margin: 20px 0;
+    }
+}
+
+.attribution {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(112, 111, 111);
+    position: absolute;
+    bottom: 30px;
+    width: 100%;    
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+
+
+
+
