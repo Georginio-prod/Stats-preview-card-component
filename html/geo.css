@@ -43,6 +43,7 @@ body {
 .container__texte--title {
     font-size: 36px;
     color: white;
+    font-weight: 600;
 }
 
 .container__texte--title--color {
@@ -65,6 +66,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: inline-block;
     font-size: 24px;
+    font-weight: 600;
 }
 
 .container__texte--size{
